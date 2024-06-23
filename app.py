@@ -26,7 +26,7 @@ JobRole_dict = {
 MaritalStatus_dict = {"Married": 0, "Single": 1, "Divorced": 2}
 Resigned_dict = {"No": 0, "Yes": 1}
 
-# Reverse dictionaries for displaying dropdown options
+#  ds Reverse dictionaries for displaying dropdown options
 OverTime_rev_dict = {v: k for k, v in OverTime_dict.items()}
 BusinessTravel_rev_dict = {v: k for k, v in BusinessTravel_dict.items()}
 Department_rev_dict = {v: k for k, v in Department_dict.items()}
